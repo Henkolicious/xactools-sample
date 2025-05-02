@@ -8,8 +8,10 @@
 
 Dotnet SDK `9.0.203` (*currently the latest version*), can be found here: https://get.dot.net
 
+`$ dotnet run`
+
 or with docker
 
 Docker from `src/`
-1. `docker build -t <your-tag> .`
-2. `docker run <your-tag> -p 6030:6030`
+1. `$ docker build -t <your-tag> .`
+2. `$ docker run <your-tag> -p 6030:6030`
