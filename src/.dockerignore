@@ -1,0 +1,6 @@
+.vs/
+.vscode/
+.dockerignore
+Dockerfile
+[Bb]in/
+[Oo]bj/
