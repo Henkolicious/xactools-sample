@@ -22,7 +22,7 @@ internal sealed class StartWeighingOutIncomingApiRequestValidator : AbstractVali
         RuleFor(c => c.PowderDensityMinimum)
             .NotEmpty()
             .GreaterThan(0);
-        RuleFor(c => c.PowderDensistyMaximum)
+        RuleFor(c => c.PowderDensityMaximum)
             .NotEmpty()
             .GreaterThan(0);
         RuleFor(c => c.MaximumFillTime)

@@ -67,7 +67,7 @@ public static class Endpoints
             request.HallFlowMax,
             request.PowderDensityNormal,
             request.PowderDensityMinimum,
-            request.PowderDensistyMaximum,
+            request.PowderDensityMaximum,
             request.MaximumFillTime,
             request.MinimumFillTime,
             request.GranuleSizeMaximum,
