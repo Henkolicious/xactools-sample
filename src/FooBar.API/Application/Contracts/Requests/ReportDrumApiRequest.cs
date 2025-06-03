@@ -2,6 +2,7 @@
 
 public sealed record ReportDrumApiRequest
 (
+    Guid ProductionOrderReferenceId,
     string ScaleId,
     string Grade,
     string SequenceNumber,
