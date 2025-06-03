@@ -2,6 +2,7 @@
 
 public sealed record WeighingOutDoneApiRequest
 (
+    Guid ProductionOrderReferenceId,
     int DryerId,
     string Grade,
     string SequenceNumber
