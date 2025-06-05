@@ -3,7 +3,7 @@
 public sealed class StartWeighingOutIncomingApiRequest : RedirectBaseRequest
 {
     public required Guid ProductionOrderReferenceId { get; init; }
-    public required string DryerId { get; init; }
+    public required Guid DryerReferenceId { get; init; }
     public required string Grade { get; init; }
     public required string SequenceNumber { get; init; }
     public decimal HallFlowMax { get; init; }
