@@ -28,7 +28,7 @@ internal sealed class ReportDrumRequestValidator : AbstractValidator<ReportDrumA
         RuleFor(c => c.HallFlow)
             .NotEmpty()
             .GreaterThan(0);
-        RuleFor(c => c.LaserD10)
+        RuleFor(c => c.ParticleSizeDistribution)
             .NotEmpty();
         RuleFor(c => c.LaserD50)
             .NotEmpty();

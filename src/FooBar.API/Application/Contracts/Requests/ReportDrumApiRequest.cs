@@ -11,8 +11,5 @@ public sealed record ReportDrumApiRequest
     string Marking,
     bool SampleTaken,
     double PowderDensity,
-    double HallFlow,
-    string LaserD10,
-    string LaserD50,
-    string LaserD90
+    double HallFlow
 );
