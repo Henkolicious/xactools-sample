@@ -7,13 +7,7 @@ internal sealed class AbortWeighingOutIncomingApiRequestValidator : AbstractVali
 {
     public AbortWeighingOutIncomingApiRequestValidator()
     {
-        RuleFor(c => c.DryerId)
-            .NotEmpty();
-        RuleFor(c => c.Grade)
-            .NotEmpty();
-        RuleFor(c => c.SequenceNumber)
-            .NotEmpty();
-        RuleFor(c => c.MillBatch)
+        RuleFor(c => c.DryerReferenceId)
             .NotEmpty();
     }
 }

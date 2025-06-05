@@ -7,12 +7,7 @@ public class WeighingOutDoneApiRequestValidator : AbstractValidator<WeighingOutD
 {
     public WeighingOutDoneApiRequestValidator()
     {
-        RuleFor(c => c.DryerId)
-            .NotEmpty()
-            .GreaterThan(0);
-        RuleFor(c => c.Grade)
-            .NotEmpty();
-        RuleFor(c => c.SequenceNumber)
+        RuleFor(c => c.ProductionOrderReferenceId)
             .NotEmpty();
     }
 }

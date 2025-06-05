@@ -7,7 +7,7 @@ internal sealed class StartWeighingOutIncomingApiRequestValidator : AbstractVali
 {
     public StartWeighingOutIncomingApiRequestValidator()
     {
-        RuleFor(c => c.DryerId)
+        RuleFor(c => c.DryerReferenceId)
             .NotEmpty();
         RuleFor(c => c.Grade)
             .NotEmpty();

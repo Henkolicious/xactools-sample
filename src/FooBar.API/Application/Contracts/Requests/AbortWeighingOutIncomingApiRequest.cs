@@ -2,5 +2,5 @@
 
 public sealed class AbortWeighingOutIncomingApiRequest : RedirectBaseRequest
 {
-    public required Guid DryerId { get; init; }
+    public required Guid DryerReferenceId { get; init; }
 }

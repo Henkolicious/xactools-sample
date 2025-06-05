@@ -2,7 +2,7 @@
 
 public sealed record StartWeighingOutOutgoingRequest
 (
-    string DryerId,
+    Guid DryerReferenceId,
     string Grade,
     string SequenceNumber,
     decimal HallFlowMax,
