@@ -7,6 +7,8 @@ internal sealed class StartWeighingOutIncomingApiRequestValidator : AbstractVali
 {
     public StartWeighingOutIncomingApiRequestValidator()
     {
+        RuleFor(c => c.ProductionOrderReferenceId)
+            .NotEmpty();
         RuleFor(c => c.DryerReferenceId)
             .NotEmpty();
         RuleFor(c => c.Grade)
@@ -45,6 +47,6 @@ internal sealed class StartWeighingOutIncomingApiRequestValidator : AbstractVali
         RuleFor(c => c.AlternativeArticleName)
             .NotEmpty();
         RuleFor(c => c.UfiCode)
-            .NotEmpty();       
+            .NotEmpty();
     }
 }
