@@ -61,7 +61,7 @@ public static class Endpoints
 
         var redirectRequest = new StartWeighingOutOutgoingRequest
         (
-            request.DryerId,
+            request.DryerReferenceId,
             request.Grade,
             request.SequenceNumber,
             request.HallFlowMax,
@@ -108,10 +108,7 @@ public static class Endpoints
 
         var redirectRequest = new AbortWeighingOutOutgoingRequest
         (
-            request.DryerId,
-            request.Grade,
-            request.SequenceNumber,
-            request.MillBatch
+            request.DryerReferenceId
         );
 
         Log.Information

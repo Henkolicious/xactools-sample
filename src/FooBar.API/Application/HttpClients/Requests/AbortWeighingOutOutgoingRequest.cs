@@ -2,8 +2,5 @@
 
 public sealed record AbortWeighingOutOutgoingRequest
 (
-    string DryerId,
-    string Grade,
-    string SequenceNumber,
-    string MillBatch
+    Guid DryerReferenceId
 );
