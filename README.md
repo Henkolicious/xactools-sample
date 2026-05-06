@@ -6,7 +6,7 @@
 
 ### Requirements
 
-Dotnet SDK `9.0.203` (*currently the latest version*), can be found here: https://get.dot.net
+Dotnet SDK `10.0.203` (*currently the latest version*), can be found here: https://get.dot.net
 
 `$ dotnet run`
 
